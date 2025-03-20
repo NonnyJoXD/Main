@@ -1,12 +1,12 @@
 --[[
 
-ALCHEMY HUB NETA EDITION SCRIPT
+NonnyJoXD NETA EDITION SCRIPT
 
-This made by Alchemy Team ( io.Luable / Alchemy Hub )
+This made by Alchemy Team ( io.Luable / NonnyJoXD )
 Modification of the script, including attempting to bypass
 or crack the script for any reason is not allowed.
 
-Copyright © 2025 Alchemy Hub - Script. All Rights Reserved.
+Copyright © 2025 NonnyJoXD - Script. All Rights Reserved.
 
 ]]--
 --84221975933832 logo ( NETA )
@@ -91,15 +91,15 @@ if _G.StreamerMode then
         for i=1,#allSpace do
             if allSpace[i].ClassName == "TextLabel" then
                 if string.find(allSpace[i].Text, game.Players.LocalPlayer.Name) then
-                    allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.Name, "[Protect By Alchemy Hub]")
+                    allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.Name, "[Protect By NonnyJoXD]")
                     allSpace[i].Changed:Connect(function()
-                        allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.Name, "[Protect By Alchemy Hub]")
+                        allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.Name, "[Protect By NonnyJoXD]")
                     end)
                 end
                 if string.find(allSpace[i].Text, game.Players.LocalPlayer.DisplayName) then
-                    allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.DisplayName, "[Protect By Alchemy Hub]")
+                    allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.DisplayName, "[Protect By NonnyJoXD]")
                     allSpace[i].Changed:Connect(function()
-                        allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.DisplayName, "[Protect By Alchemy Hub]")
+                        allSpace[i].Text = string.gsub(allSpace[i].Text, game.Players.LocalPlayer.DisplayName, "[Protect By NonnyJoXD]")
                     end)
                 end
             end
@@ -107,9 +107,9 @@ if _G.StreamerMode then
         game.DescendantAdded:Connect(function(descendant)
             if descendant.ClassName == "TextLabel" then
                 if string.find(descendant.Text, game.Players.LocalPlayer.Name) then
-                    descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.Name, "[Protect By Alchemy Hub]")
+                    descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.Name, "[Protect By NonnyJoXD]")
                     descendant.Changed:Connect(function()
-                        descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.Name, "[Protect By Alchemy Hub]")
+                        descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.Name, "[Protect By NonnyJoXD]")
                     end)
                 end
             end
@@ -117,9 +117,9 @@ if _G.StreamerMode then
         game.DescendantAdded:Connect(function(descendant)
             if descendant.ClassName == "TextLabel" then
                 if string.find(descendant.Text, game.Players.LocalPlayer.DisplayName) then
-                    descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.DisplayName, "[Protect By Alchemy Hub]")
+                    descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.DisplayName, "[Protect By NonnyJoXD]")
                     descendant.Changed:Connect(function()
-                        descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.DisplayName, "[Protect By Alchemy Hub]")
+                        descendant.Text = string.gsub(descendant.Text, game.Players.LocalPlayer.DisplayName, "[Protect By NonnyJoXD]")
                     end)
                 end
             end
@@ -137,7 +137,7 @@ spawn(function()
 end)
 --[[
 pcall(function()
-    Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#00ff80'>Alchemy Hub On Top #1</font>")
+    Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#00ff80'>NonnyJoXD On Top #1</font>")
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#9aaaff'>Join our discord at discord.gg/zp32C8K8ta</font>")
 end)]]
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/__Script/refs/heads/main/__UI1.lua"))()
